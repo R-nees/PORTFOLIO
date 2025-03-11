@@ -113,4 +113,15 @@ section {
     .hero p {
         font-size: 1.2rem;
     }
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .card {
+        width: 90%; 
+        max-width: 400px; 
+        margin: 0 auto; 
+    }
 }
